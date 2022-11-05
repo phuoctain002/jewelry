@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -16,7 +17,6 @@ select {
     outline: none;
     font-size: 12px;
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
 }
 input {
     line-height: normal;
@@ -460,6 +460,7 @@ i {
     text-align: center;
     cursor: pointer;
     background-color: #dbe7dd;
+    border-radius: 0 0 12px 12px;
 }
 
 .product-item-title {

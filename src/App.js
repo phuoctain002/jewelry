@@ -10,6 +10,7 @@ import '~/main.css';
 import Header from './components/Layout/DefaultLayout/Header';
 import Slider from './components/Layout/DefaultLayout/Slider';
 import HomeContent from './components/Layout/DefaultLayout/HomeContent';
+import Footer from './components/Layout/DefaultLayout/Footer';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Header />
                 <Slider />
                 <HomeContent />
+                <Footer />
                 <Routes>
                     {/* {publicRoutes.map((route, index) => {
                         const Page = route.component;
