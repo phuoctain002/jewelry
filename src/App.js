@@ -11,15 +11,19 @@ import Header from './components/Layout/DefaultLayout/Header';
 import Slider from './components/Layout/DefaultLayout/Slider';
 import HomeContent from './components/Layout/DefaultLayout/HomeContent';
 import Footer from './components/Layout/DefaultLayout/Footer';
+import HeaderAdmin from './admin/components/Header';
+import SidebarAdmin from './admin/components/Sidebar';
 
 function App() {
     return (
         <Router>
             <div className="App">
-                <Header />
+                <HeaderAdmin />
+                <SidebarAdmin />
+                {/* <Header />
                 <Slider />
                 <HomeContent />
-                <Footer />
+                <Footer /> */}
                 <Routes>
                     {/* {publicRoutes.map((route, index) => {
                         const Page = route.component;
