@@ -2,7 +2,7 @@ import { AiOutlineGold } from 'react-icons/ai';
 import { CgRing } from 'react-icons/cg';
 import { BsCardImage } from 'react-icons/bs';
 import { TfiLayoutSlider } from 'react-icons/tfi';
-
+import '~/admin/components/Sidebar/sidebar.css';
 function SidebarAdmin() {
     return (
         <>

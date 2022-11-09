@@ -1,7 +1,9 @@
+import '~/admin/components/Header/header.css';
+
 function HeaderAdmin() {
     return (
         <>
-            <div className="header">
+            <div className="header-admin">
                 <div className="heading">
                     <span className="heading-label"></span>
                 </div>
