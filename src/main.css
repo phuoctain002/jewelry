@@ -400,8 +400,13 @@ i {
 }
 .slick-slider.slide-content.slick-initialized .slick-arrow {
     color: #000 !important;
-    background-color: #6d6666 !important;
+    background-color: #c1b7b7 !important;
 }
+.slick-next:before,
+.slick-prev:before {
+    line-height: 2.6 !important;
+}
+
 .slick-slider.slide-content.slick-initialized .slick-arrow:hover {
     color: #fff !important;
     background-color: var(--primary-color) !important;
