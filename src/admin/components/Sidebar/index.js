@@ -8,24 +8,24 @@ function SidebarAdmin() {
         <>
             <div className="sidebar">
                 <div className="company-name">
-                    <span className="company-name-label">KIM JEWELRY</span>
+                    <h1 className="company-name-label">KIM JEWELRY</h1>
                 </div>
-                <div className="function">
-                    <div className="product-type-btn">
-                        <AiOutlineGold />
-                        <span className="product-type-label"></span>
+                <div className="function-menu">
+                    <div className="function-menu-btn">
+                        <AiOutlineGold className="menu-icon" />
+                        <label className="function-menu-label">Loại sản phẩm</label>
                     </div>
-                    <div className="product-btn">
-                        <CgRing />
-                        <span className="product-label"></span>
+                    <div className="function-menu-btn">
+                        <CgRing className="menu-icon" />
+                        <label className="function-menu-label">Sản phẩm</label>
                     </div>
-                    <div className="library-btn">
-                        <BsCardImage />
-                        <span className="library-label"></span>
+                    <div className="function-menu-btn">
+                        <BsCardImage className="menu-icon" />
+                        <label className="function-menu-label">Album</label>
                     </div>
-                    <div className="slider-btn">
-                        <TfiLayoutSlider />
-                        <span className="slider-label"></span>
+                    <div className="function-menu-btn">
+                        <TfiLayoutSlider className="menu-icon" />
+                        <label className="function-menu-label">Slide</label>
                     </div>
                 </div>
             </div>

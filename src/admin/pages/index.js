@@ -9,13 +9,13 @@ import Products from '../components/Content/Products';
 function Admin() {
     return (
         <>
-            <HeaderAdmin />
+            {/* <HeaderAdmin /> */}
             <Row>
-                <Col span={6}>
+                <Col span={4}>
                     <SidebarAdmin />
                 </Col>
                 <Col span={18}>
-                    <ProductTypes />
+                    {/* <ProductTypes /> */}
                     <Products />
                 </Col>
             </Row>

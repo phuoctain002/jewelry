@@ -17,9 +17,10 @@ function HomeContent() {
 
     return (
         <>
-            {productTypes.map((item, index) => {
-                return <ContentSlider name={item.name} productTypeId={item.productTypeId} />;
-            })}
+            {productTypes &&
+                productTypes.map((item, index) => {
+                    return <ContentSlider name={item.name} productTypeId={item.productTypeId} />;
+                })}
         </>
     );
 }

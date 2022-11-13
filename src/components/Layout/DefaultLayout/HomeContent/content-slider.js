@@ -40,7 +40,7 @@ function ContentSlider(props) {
     };
     return (
         <>
-            <div className="hot-product" style={{ margin: '55px 0' }}>
+            <div className="hot-product" style={{ margin: '55px 0' }} data-aos="fade-up">
                 <h2>{props.name}</h2>
                 <h4>Tôn lên vẻ sang trọng của người phụ nữ</h4>
                 <Slider {...settings}>

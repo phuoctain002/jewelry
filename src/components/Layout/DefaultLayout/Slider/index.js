@@ -14,7 +14,14 @@ const styleDefaults = {
 };
 function Slider() {
     return (
-        <Carousel dots arrows prevArrow={<ArrowLeftOutlined />} nextArrow={<ArrowRightOutlined />} effect="scrollx">
+        <Carousel
+            className="slider-top"
+            dots
+            arrows
+            prevArrow={<ArrowLeftOutlined />}
+            nextArrow={<ArrowRightOutlined />}
+            effect="scrollx"
+        >
             <div className="image-slider">
                 <img
                     src={

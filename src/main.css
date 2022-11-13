@@ -53,7 +53,7 @@ i {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 22px;
+    /* padding-bottom: 22px; */
     border-bottom: 1px solid rgba(112, 112, 112, 0.1);
 }
 
@@ -84,7 +84,7 @@ i {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 34px;
+    top: 25px;
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -113,6 +113,7 @@ i {
     position: relative;
     display: flex;
     margin-top: 22px;
+    padding-bottom: 10px;
     height: 56px;
     justify-content: center;
 }
@@ -146,7 +147,7 @@ i {
 .header-search {
     position: relative;
     width: 350px;
-    height: 48px;
+    height: 46px;
     margin: 0 0 0 26px;
 }
 
@@ -158,23 +159,29 @@ i {
     outline: none;
     background-color: black;
     border-radius: 50px;
-    color: var(--text-yellow-color);
+    color: rgba(251, 194, 24, 0.9);
     padding: 15px 15px 15px 25px;
 }
 .header-search-input::placeholder {
-    color: var(--text-yellow-color);
+    color: rgba(251, 194, 24, 0.9);
+    font-weight: 300;
 }
 
 .header-search-btn {
     position: absolute;
     right: 15px;
     top: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
-.header-search-btn i {
+.header-search-btn .anticon {
     color: var(--text-yellow-color);
-    font-size: 1.4rem;
+    font-size: 16px;
     text-align: center;
+    height: 20px;
+    width: 20px;
 }
 
 /* Menu show */
@@ -243,6 +250,11 @@ i {
 /* slider */
 .ant-carousel {
     padding: 0px 5px;
+    border-radius: 6px;
+}
+
+.slider-top {
+    border-radius: 5px;
 }
 
 .slick-slider.slick-initialized .slick-arrow {
@@ -325,6 +337,7 @@ i {
 
 .slick-slider.slick-initialized .slick-list {
     height: 459px;
+    border-radius: inherit;
 }
 
 .slick-slide {

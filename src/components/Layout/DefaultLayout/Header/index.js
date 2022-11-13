@@ -1,3 +1,5 @@
+import { SearchOutlined } from '@ant-design/icons';
+
 function Header() {
     return (
         <>
@@ -23,7 +25,12 @@ function Header() {
                     </div>
                 </div>
                 <div className="logo">
-                    <img src="./assets/img/GOLD-removebg.png" alt="logo" />
+                    <img
+                        src={
+                            'https://firebasestorage.googleapis.com/v0/b/firjewelry-871f7.appspot.com/o/Jewelry-Image%2FGOLD-removebg.png?alt=media&token=5e27d372-365a-4228-a414-39d5e12028c1'
+                        }
+                        alt="logo"
+                    />
                 </div>
                 <div className="sub-nav">
                     <div className="sub-nav-menu">
@@ -130,7 +137,7 @@ function Header() {
                     <div className="header-search">
                         <input type="text" className="header-search-input" placeholder="Search..." autoComplete="off" />
                         <div className="header-search-btn">
-                            <i className="fa-solid fa-magnifying-glass"></i>
+                            <SearchOutlined className="search-icon" />
                         </div>
                     </div>
                 </div>
